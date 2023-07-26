@@ -1,0 +1,54 @@
+
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.video-preview-container {
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    font-size: 13px;
+    padding: 3px 3px;
+}
+
+.video-preview {
+    width: 300px;
+}
+
+.video-info {
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.profile-picture-container {
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.author, .stats {
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+}
+
+.author {
+    margin-bottom: 3px;
+}
